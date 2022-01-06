@@ -147,7 +147,7 @@ body {
 
 /* banner */
 #banner {
-    background-image: url("/assets/banner.jpg");
+    background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/banner.jpg");
     min-height: 200vh;
     /* background-attachment: fixed; */
     background-position: center;
@@ -237,7 +237,7 @@ body {
 
 /* leading */
 #leading {
-    background-image: url("/assets/leading.jpg");
+    background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/leading.jpg");
     min-height: 100vh;
     /* background-attachment: fixed; */
     background-position: center;
