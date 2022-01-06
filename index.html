@@ -147,26 +147,72 @@
             $(window).scroll(function () {
                 var current_pos = $(window).scrollTop();
                 console.log(current_pos);
-                $('.g-cover-dek1').css("opacity", 1 - current_pos / 150);
-                $('.g-cover-dek2').css("opacity", 0 + current_pos / 300);
-                if (current_pos > 700) {
-                    $(".g-cover-dek2").css("opacity", 1 - current_pos / 900);
-                };
-                if (current_pos > 1000) {
-                    $(".g-cover-hed").css("opacity", 0 + current_pos / 1560);
-                };
-                // if (current_pos > 2500 & media min-width = 1024px )
-                //     $(".g-cover-dek1").css("opacity", 1) & $(".g-cover-dek2").css("opacity", 1) & $(
-                //         ".g-cover-hed").css("opacity", 1);
-                // };
-                if (current_pos > 2478) {
-                    $(".sidebar").css("opacity", 1);
-                };
-                if (current_pos < 2478) {
-                    $(".sidebar").css("opacity", 0);
-                };
+                if (window.matchMedia('(min-width: 1024px)').matches) {
+                    $('.g-cover-dek1').css("opacity", 1 - current_pos / 150);
+                    $('.g-cover-dek2').css("opacity", 0 + current_pos / 300);
+                    if (current_pos > 700) {
+                        $(".g-cover-dek2").css("opacity", 1 - current_pos / 900);
+                    };
+                    if (current_pos > 1000) {
+                        $(".g-cover-hed").css("opacity", 0 + current_pos / 1560);
+                    };
+                    if (current_pos > 2000){
+                        $(".g-cover-dek1").css("opacity", 1) & $(".g-cover-dek2").css("opacity", 1) & $(
+                            ".g-cover-hed").css("opacity", 1);
+                    };
+                    if (current_pos > 2477) {
+                        $(".sidebar").css("opacity", 1);
+                    };
+                    if (current_pos < 2478) {
+                        $(".sidebar").css("opacity", 0);
+                    };
+                }
+                if (window.matchMedia('(max-width: 1023px)').matches) {
+                    $('.g-cover-dek1').css("opacity", 1 - current_pos / 150);
+                    $('.g-cover-dek2').css("opacity", 0 + current_pos / 300);
+                    if (current_pos > 600) {
+                        $(".g-cover-dek2").css("opacity", 1 - current_pos / 700);
+                    };
+                    if (current_pos > 900) {
+                        $(".g-cover-hed").css("opacity", 0 + current_pos / 1300);
+                    };
+                    if (current_pos > 1600){
+                        $(".g-cover-dek1").css("opacity", 1) & $(".g-cover-dek2").css("opacity", 1) & $(
+                            ".g-cover-hed").css("opacity", 1);
+                    };
+                    if (current_pos > 2435) {
+                        $(".sidebar").css("opacity", 1);
+                    };
+                    if (current_pos < 2436) {
+                        $(".sidebar").css("opacity", 0);
+                    };
+                }
             })
         })
+        // $(document).ready(function () {
+        //     $(window).scroll(function () {
+        //         var current_pos = $(window).scrollTop();
+        //         console.log(current_pos);
+        //         $('.g-cover-dek1').css("opacity", 1 - current_pos / 150);
+        //         $('.g-cover-dek2').css("opacity", 0 + current_pos / 300);
+        //         if (current_pos > 700) {
+        //             $(".g-cover-dek2").css("opacity", 1 - current_pos / 900);
+        //         };
+        //         if (current_pos > 1000) {
+        //             $(".g-cover-hed").css("opacity", 0 + current_pos / 1560);
+        //         };
+        //         // if (current_pos > 2500 & media min-width = 1024px )
+        //         //     $(".g-cover-dek1").css("opacity", 1) & $(".g-cover-dek2").css("opacity", 1) & $(
+        //         //         ".g-cover-hed").css("opacity", 1);
+        //         // };
+        //         if (current_pos > 2478) {
+        //             $(".sidebar").css("opacity", 1);
+        //         };
+        //         if (current_pos < 2478) {
+        //             $(".sidebar").css("opacity", 0);
+        //         };
+        //     })
+        // })
     </script>
 
 
