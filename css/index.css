@@ -280,7 +280,12 @@ body {
     display: block;
     text-align: center;
 }
-
+@media (max-width: 1023px) {
+    .g-cover .g-cover-header .g-cover-hed {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
 @media (min-width: 1024px) {
     .g-cover .g-cover-header .g-cover-hed h3 {
         font-size: 36px;
@@ -301,7 +306,6 @@ body {
 #leading {
     background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/leading.jpg");
     min-height: 100vh;
-    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -334,6 +338,16 @@ body {
     font-size: 18px;
     color: #fff;
     /* box-shadow:0px -50px 5px rgba(0, 0, 0, 0.5);     */
+}
+
+#story-4 {
+    background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/story_transition.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    width: 100%;
 }
 
 /* fact */
