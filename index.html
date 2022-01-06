@@ -160,18 +160,18 @@
                         $(".g-cover-dek1").css("opacity", 1) & $(".g-cover-dek2").css("opacity", 1) & $(
                             ".g-cover-hed").css("opacity", 1);
                     };
-                    if (current_pos > 2477) {
+                    if (current_pos > 2783) {
                         $(".sidebar").css("opacity", 1);
                     };
-                    if (current_pos < 2478) {
+                    if (current_pos < 2784) {
                         $(".sidebar").css("opacity", 0);
                     };
                 }
                 if (window.matchMedia('(max-width: 1023px)').matches) {
                     $('.g-cover-dek1').css("opacity", 1 - current_pos / 150);
                     $('.g-cover-dek2').css("opacity", 0 + current_pos / 300);
-                    if (current_pos > 600) {
-                        $(".g-cover-dek2").css("opacity", 1 - current_pos / 700);
+                    if (current_pos > 500) {
+                        $(".g-cover-dek2").css("opacity", 1 - current_pos / 750);
                     };
                     if (current_pos > 900) {
                         $(".g-cover-hed").css("opacity", 0 + current_pos / 1300);
