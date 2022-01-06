@@ -2,12 +2,13 @@
 
 body {
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    line-height: 12px;
 }
 
 
 
 /* sidebar */
-.sidebar{
+.sidebar {
     opacity: 0;
 }
 /* sc-component-id: styled__TOCBlock-sc-1guo9zm-0 */
@@ -145,6 +146,67 @@ body {
 }
 
 
+/* sc-component-id: body__StyledBrief-dwuu2m-0 */
+.fLoUMd {
+    margin: 0 auto;
+}
+
+@media (max-width:767px) {
+    .fLoUMd {
+        width: calc(300/375*100%);
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .fLoUMd {
+        width: 453px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1439px) {
+    .fLoUMd {
+        width: 480px;
+    }
+}
+
+@media (min-width:1440px) {
+    .fLoUMd {
+        width: 580px;
+    }
+}
+
+/* sc-component-id: body__StyledAnnotation-dwuu2m-1 */
+.kitlUE {
+    margin: 40px auto;
+}
+
+@media (max-width:767px) {
+    .kitlUE {
+        width: calc(300/375*100%);
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .kitlUE {
+        width: 453px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1439px) {
+    .kitlUE {
+        width: 480px;
+    }
+}
+
+@media (min-width:1440px) {
+    .kitlUE {
+        width: 580px;
+    }
+}
+
+/*  */
+
+
 /* banner */
 #banner {
     background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/banner.jpg");
@@ -226,7 +288,7 @@ body {
     }
 
     .g-cover .g-cover-header .g-cover-hed .g-cover-byline {
-        font-size: 28px;
+        font-size: 24px;
         line-height: 32px;
     }
 
@@ -269,11 +331,11 @@ body {
 /* story */
 #story-1 {
     background-color: #000;
-    min-height: 100vh;
     font-size: 18px;
     color: #fff;
     /* box-shadow:0px -50px 5px rgba(0, 0, 0, 0.5);     */
 }
+
 /* fact */
 #fact-1 {
     background-color: #fff;
@@ -282,6 +344,7 @@ body {
     color: #000;
     /* box-shadow:0px -50px 5px rgba(0, 0, 0, 0.5);     */
 }
+
 /* reason */
 #reason-1 {
     background-color: #f2f2f2;
@@ -290,6 +353,7 @@ body {
     color: #000;
     /* box-shadow:0px -50px 5px rgba(0, 0, 0, 0.5);     */
 }
+
 /* gov */
 #gov-1 {
     background-color: #e6e6e6;
@@ -298,6 +362,7 @@ body {
     color: #000;
     /* box-shadow:0px -50px 5px rgba(0, 0, 0, 0.5);     */
 }
+
 /* solution */
 #solution-1 {
     background-color: #d9d9d9;
