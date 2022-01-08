@@ -174,7 +174,7 @@ body {
 }
 @media (max-width: 728px) {
     #story-4 {
-    background-attachment: scroll;}
+        background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/story_transition_mobile.jpg")}
 }
 
 /* fact */
