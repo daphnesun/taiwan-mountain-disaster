@@ -172,6 +172,10 @@ body {
     font-size: 18px;
     width: 100%;
 }
+@media (max-width: 728px) {
+    #story-4 {
+    background-attachment: scroll;}
+}
 
 /* fact */
 
