@@ -164,7 +164,7 @@ body {
 
 #story-4 {
     background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/story_transition.jpg");
-    min-height: 100vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
