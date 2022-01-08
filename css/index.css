@@ -174,13 +174,7 @@ body {
 }
 
 /* fact */
-#fact-1 {
-    background-color: #fff;
-    min-height: 100vh;
-    font-size: 18px;
-    color: #000;
-    /* box-shadow:0px -50px 5px rgba(0, 0, 0, 0.5);     */
-}
+
 
 /* reason */
 #reason-1 {
