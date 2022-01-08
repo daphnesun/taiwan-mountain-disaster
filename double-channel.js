@@ -12433,12 +12433,12 @@
                 map: he.a
             },
             vt = {
-                on: 12,
-                off: 5
+                on: 0,
+                off: 0
             },
             bt = me.b.div.withConfig({
                 componentId: "sc-1vxky9s-0"
-            })(["position:fixed;right:60px;", " width:", "px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:flex-end;", " ", ""], xe.desktopOnly(ht()), vt.on, (function (e) {
+            })(["position:fixed;right:0px;", " width:", "px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:flex-end;", " ", ""], xe.desktopOnly(ht()), vt.on, (function (e) {
                 return e.hide ? "visibility: hidden;" : ""
             }), xe.tabletBelow(dt())),
             gt = me.b.div.withConfig({
@@ -12605,10 +12605,10 @@
             },
             Ft = me.b.div.withConfig({
                 componentId: "sc-1s8z3uz-0"
-            })(["position:fixed;height:100vh;z-index:", ";top:0;right:0;display:block;", " ", " ", " ", ""], rt.zIndex.hoverDetector, xe.mobileBelow(It()), xe.tabletOnly(At()), xe.desktopOnly(Rt()), xe.hdAbove(jt())),
+            })(["position:fixed;height:0vh;z-index:", ";top:0;right:0;display:block;", " ", " ", " ", ""], rt.zIndex.hoverDetector, xe.mobileBelow(It()), xe.tabletOnly(At()), xe.desktopOnly(Rt()), xe.hdAbove(jt())),
             Dt = me.b.div.withConfig({
                 componentId: "sc-1s8z3uz-1"
-            })(["font-size:14px;max-width:", "px;height:100vh;position:fixed;right:0;top:0;display:flex;flex-direction:column;justify-content:center;z-index:", ";background-image:linear-gradient( to right,rgba(253,253,253,0),", " ", "% );padding:", "px ", "px ", "px ", "px;transform:translateX(", ");opacity:", ";transition:transform 500ms ease,opacity 500ms ease;overflow-x:hidden;overflow-y:auto;"], Mt, rt.zIndex.toc, rt.colors.background, (zt.left - 20) / Mt * 100, zt.top, zt.right, zt.bottom, zt.left, (function (e) {
+            })(["font-size:14px;max-width:", "px;height:0vh;position:fixed;right:0;top:0;display:flex;flex-direction:column;justify-content:center;z-index:", ";background-image:linear-gradient( to right,rgba(253,253,253,0),", " ", "% );padding:", "px ", "px ", "px ", "px;transform:translateX(", ");opacity:", ";transition:transform 500ms ease,opacity 500ms ease;overflow-x:hidden;overflow-y:auto;"], Mt, rt.zIndex.toc, rt.colors.background, (zt.left - 20) / Mt * 100, zt.top, zt.right, zt.bottom, zt.left, (function (e) {
                 return e.isOpened ? "0" : "100%"
             }), (function (e) {
                 return e.isOpened ? "1" : "0"
