@@ -12307,6 +12307,7 @@
                 secondary: "#a67a44",
                 white: "#fff",
                 black: "#000",
+                invisible:"rgba(0,0,0,0)",
                 hex404040: "#404040",
                 hex808080: "#808080",
                 hex4A4949: "#4A4949",
@@ -12733,7 +12734,7 @@
                 return e.show ? "visible" : "hidden"
             }), (function (e) {
                 return e.show ? "0.5" : "0"
-            }), rt.colors.white, rt.zIndex.toc),
+            }), rt.colors.invisible, rt.zIndex.toc),
             Ht = me.b.div.withConfig({
                 componentId: "sc-15qlygu-1"
             })(["position:absolute;transform:translate(-50%,-50%);top:50%;left:50%;"]),
@@ -12746,7 +12747,7 @@
             }), rt.colors.primary),
             Qt = me.b.div.withConfig({
                 componentId: "sc-15qlygu-3"
-            })(["position:absolute;width:14x;height:14px;transform:translate(-50%,-58%);top:50%;left:50%;&::before,::after{position:absolute;content:' ';height:20px;width:1px;background-color:", ";}&::after{transform:rotate(45deg);}&::before{transform:rotate(-45deg);}"], rt.colors.primary),
+            })(["position:absolute;width:14x;height:14px;transform:translate(-50%,-58%);top:50%;left:50%;&::before,::after{position:absolute;content:' ';height:20px;width:1px;background-color:", ";}&::after{transform:rotate(45deg);}&::before{transform:rotate(-45deg);}"], rt.colors.invisible),
             Kt = function (e) {
                 var t = e.show,
                     n = e.isOpened,
@@ -12837,7 +12838,7 @@
             },
             sn = me.b.div.withConfig({
                 componentId: "sc-1hrnutr-0"
-            })(["display:flex;width:", "px;transform:translateX( ", " );transition:transform 500ms ease;overflow-x:visible;overflow-y:auto;height:100vh;position:fixed;right:0;top:0;z-index:", ";", ""], ln + 40, (function (e) {
+            })(["display:flex;width:", "px;transform:translateX( ", " );transition:transform 500ms ease;overflow-x:visible;overflow-y:auto;height:0vh;position:fixed;right:0;top:0;z-index:", ";", ""], ln + 40, (function (e) {
                 return e.isOpened ? "0" : "".concat(e.show ? ln : ln + 40, "px")
             }), rt.zIndex.toc, xe.desktopAbove(rn())),
             fn = me.b.div.withConfig({
