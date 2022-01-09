@@ -180,19 +180,35 @@ body {
 }
 
 @media (max-width: 728px) {
-    #story-4 {
-        background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/story_transition_mobile.jpg");
-        min-height: 100vh;
-        min-height: -webkit-fill-available;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        font-size: 18px;
+    #story-4:before {
+        background: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/story_transition_mobile.jpg") no-repeat center center;
+        /* min-height: 100vh; */
+        /* min-height: -webkit-fill-available; */
+        content: "";
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
         width: 100%;
+        height: 100%;
+        z-index: -10;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
-
+/* #story-4 {
+    background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/story_transition_mobile.jpg");
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 18px;
+    width: 100%;
+} */
 /* fact */
 
 
