@@ -646,9 +646,9 @@
                 <div class="col-lg-3 mb-12"></div>
                 <div class="col-lg-6 mb-12">
                     <p>採訪、攝影／孫嘉君、戴淨妍、陳禹蓁
-                        <br>網頁工程／孫嘉君
-                        <br>設計／戴淨妍
                         <br>文字／陳禹蓁
+                        <br>設計／戴淨妍
+                        <br>網頁工程／孫嘉君
                     </p>
                 </div>
                 <div class="col-lg-3 mb-12"></div>
@@ -686,12 +686,6 @@
                         $(".g-cover-dek1").css("opacity", 1) & $(".g-cover-dek2").css("opacity", 1) & $(
                             ".g-cover-hed").css("opacity", 1);
                     };
-                    if (current_pos > 2783) {
-                        $(".sidebar").css("opacity", 1);
-                    };
-                    if (current_pos < 2784) {
-                        $(".sidebar").css("opacity", 0);
-                    };
                 }
                 if (window.matchMedia('(max-width: 1023px)').matches) {
                     $('.g-cover-dek1').css("opacity", 1 - current_pos / 150);
@@ -706,17 +700,17 @@
                         $(".g-cover-dek1").css("opacity", 1) & $(".g-cover-dek2").css("opacity", 1) & $(
                             ".g-cover-hed").css("opacity", 1);
                     };
-                    if (current_pos > 2435) {
-                        $(".sidebar").css("opacity", 1);
+                    if (current_pos > 15000) {
+                        $("#story-4").css("opacity", 0);
                     };
-                    if (current_pos < 2436) {
-                        $(".sidebar").css("opacity", 0);
+                    if (current_pos < 15000) {
+                        $("#story-4").css("opacity", 1);
                     };
                 }
             })
         })
     </script>
-    <!-- scroll-opacity -->
+
     <script>
         $(document).ready(function () {
             $(window).scroll(function () {

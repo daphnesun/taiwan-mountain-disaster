@@ -3,6 +3,7 @@
 body {
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     line-height: 12px;
+    border-width: 0 0 0px 0;
 }
 
 .slideanimate1 {
@@ -198,6 +199,7 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        opacity: 1;
     }
 }
 /* #story-4 {
@@ -244,6 +246,7 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        opacity: 1;
     }
 }
 
