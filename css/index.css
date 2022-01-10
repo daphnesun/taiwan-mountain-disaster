@@ -32,24 +32,21 @@ body {
 #banner {
     background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/banner.jpg");
     min-height: 200vh;
-    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.g-cover {
+.cover {
     position: relative;
 }
 
-.g-cover .g-cover-header {
+.cover .cover-header {
     position: sticky;
-    /* position: -webkit-sticky; */
     top: 0;
     height: 200vh;
     z-index: 10;
     font-family: "Noto Sans TC";
-    /* color: #fff; */
     font-size: 20px;
     line-height: 28px;
     display: -ms-flexbox;
@@ -63,38 +60,35 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.g-cover .g-cover-header .g-cover-dek,
-.g-cover .g-cover-header .g-cover-hed {
+.cover .cover-header .cover-dek,
+.cover .cover-header .cover-hed {
     width: calc(100% - 40px);
     margin: 0 auto;
-    /* max-width: 900px; */
 }
 
-.g-cover .g-cover-header .g-cover-dek1 {
+.cover .cover-header .cover-dek1 {
     padding-top: 20vh;
     max-width: 500px;
     color: #000;
     opacity: 1;
 }
 
-.g-cover .g-cover-header .g-cover-dek2 {
+.cover .cover-header .cover-dek2 {
     opacity: 0;
     color: #fff;
 }
 
-.g-cover .g-cover-header .g-cover-hed {
+.cover .cover-header .cover-hed {
     padding-bottom: 70px;
     opacity: 0;
     color: #fff;
 }
 
-.g-cover .g-cover-header .g-cover-byline+.g-cover-additional {
+.cover .cover-header .cover-byline+.cover-additional {
     margin-top: 25px;
 }
 
-.g-cover .g-cover-header .g-cover-additional {
-    font-family: "nyt-magsans", arial, helvetica, sans-serif;
-    text-transform: uppercase;
+.cover .cover-header .cover-additional {
     font-size: 15px;
     line-height: 1.2;
     font-weight: 500;
@@ -103,24 +97,24 @@ body {
 }
 
 @media (max-width: 1023px) {
-    .g-cover .g-cover-header .g-cover-hed {
+    .cover .cover-header .cover-hed {
         font-size: 28px;
         line-height: 32px;
     }
 }
 
 @media (min-width: 1024px) {
-    .g-cover .g-cover-header .g-cover-hed h3 {
+    .cover .cover-header .cover-hed h3 {
         font-size: 36px;
         line-height: 32px;
     }
 
-    .g-cover .g-cover-header .g-cover-hed .g-cover-byline {
+    .cover .cover-header .cover-hed .cover-byline {
         font-size: 24px;
         line-height: 32px;
     }
 
-    .g-cover .g-cover-header .g-cover-dek {
+    .cover .cover-header .cover-dek {
         max-width: 900px;
     }
 }
@@ -156,16 +150,40 @@ body {
 }
 
 /* story */
-#story-1,#fact-1,#fact-3,#reason-1,#solution-4 {
-    background-color: #000;
-    height: 100vh;
-    font-size: 18px;
-    color: #fff;
-    padding-right: 5vw;
-    padding-left: 5vw;
-    padding-top: 10vh;
-    top: 0;
-    left: 0,
+@media (min-width: 728px) {
+
+    #story-1,
+    #fact-1,
+    #fact-3,
+    #solution-4 {
+        background-color: #000;
+        height: 100vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 10vh;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        top: 0;
+        left: 0,
+    }
+}
+
+@media (max-width: 728px) {
+
+    #story-1,
+    #fact-1,
+    #fact-3,
+    #solution-4 {
+        background-color: #000;
+        height: 100vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 10vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        top: 0;
+        left: 0,
+    }
 }
 
 @media (min-width: 728px) {
@@ -178,6 +196,7 @@ body {
         background-attachment: fixed;
         font-size: 18px;
         width: 100%;
+
     }
 }
 
@@ -222,9 +241,35 @@ body {
 }
 
 /* fact */
-
-
 /* reason */
+@media (min-width: 728px) {
+    #reason-1 {
+        background-color: #000;
+        height: 70vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 10vh;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        top: 0;
+        left: 0,
+    }
+}
+
+@media (max-width: 728px) {
+    #reason-1 {
+        background-color: #000;
+        height: 70vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 10vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        top: 0;
+        left: 0,
+    }
+}
+
 @media (min-width: 728px) {
     #reason-3 {
         background-image: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/reason_transition.png");
@@ -260,7 +305,7 @@ body {
 }
 
 /* gov */
-#gov-1{
+#gov-1 {
     background-color: #000;
     height: 90vh;
     font-size: 18px;
@@ -269,19 +314,65 @@ body {
     top: 0;
     left: 0,
 }
-/* solution */
-#solution-1-1{
-    background-color: #000;
-    height: 30vh;
-    font-size: 18px;
-    color: #fff;
-    /* padding-right: 5vw;
-    padding-left: 5vw; */
-    padding-top: 10vh;
-    top: 0;
-    left: 0,
+
+@media (min-width: 728px) {
+    #gov-1 {
+        background-color: #000;
+        height: 90vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 10vh;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        top: 0;
+        left: 0;
+    }
 }
-#solution-1-2 {
+
+@media (max-width: 728px) {
+    #gov-1 {
+        background-color: #000;
+        height: 150vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 10vh;
+        top: 0;
+        left: 0;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+
+/* solution */
+@media (min-width: 728px) {
+    #solution-0 {
+        background-color: #000;
+        height: 20vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 10vh;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        top: 0;
+        left: 0,
+    }
+}
+
+@media (max-width: 728px) {
+    #solution-0 {
+        background-color: #000;
+        height: 20vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 10vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        top: 0;
+        left: 0,
+    }
+}
+
+/* #solution-1-2 {
     background-color: #000;
     height: 50vh;
     font-size: 18px;
@@ -291,8 +382,11 @@ body {
     padding-top: 10vh;
     top: 0;
     left: 0,
-}
-#solution-2-1,#solution-3-1 {
+} */
+
+#solution-1-1,
+#solution-2-1,
+#solution-3-1 {
     background-color: #000;
     height: 10vh;
     font-size: 18px;
@@ -300,9 +394,13 @@ body {
     padding-right: 5vw;
     padding-left: 5vw;
     top: 0;
-    left: 0,
+    left: 0;
+    display: flex;
+    justify-content: center;
 }
-#solution-2-2,#solution-3-2 {
+#solution-1-2,
+#solution-2-2,
+#solution-3-2 {
     background-color: #000;
     height: 50vh;
     font-size: 18px;
@@ -312,6 +410,7 @@ body {
     top: 0;
     left: 0,
 }
+
 #solution-4 {
     background-color: #000;
     height: 80vh;
@@ -321,8 +420,9 @@ body {
     padding-left: 5vw;
     padding-top: 0vh;
     top: 0;
-    left: 0,
+    left: 0;
 }
+
 #f1_container {
     position: relative;
     margin: 10px auto;
@@ -330,25 +430,30 @@ body {
     height: 250px;
     z-index: 1;
 }
+
 #f1_container {
     perspective: 1000px;
 }
+
 #f1_card {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
     transition: all 1.0s linear;
 }
+
 #f1_container:hover #f1_card {
     transform: rotateY(180deg);
     box-shadow: -5px 5px 5px #aaa;
 }
+
 .face {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
 }
+
 .face.back {
     display: block;
     transform: rotateY(180deg);
@@ -358,34 +463,13 @@ body {
     text-align: center;
     /*background-color: #aaa;*/
 }
+
 #f1_container img {
     width: 250px;
     height: 250px;
 }
 
 /*  */
-.vertical-center {
-    margin: 0;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: center;
-}
-
-
-.page-title {
-
-    text-align: center;
-    margin: auto;
-    width: 70%;
-    /* height: 100%; */
-    vertical-align: middle;
-    padding: 10px;
-}
-
-
 .container-fluid {
     display: flex;
     flex-direction: row;
@@ -396,4 +480,5 @@ body {
 
 a:hover {
     color: gray;
-    text-decoration: none;}
+    text-decoration: none;
+}
