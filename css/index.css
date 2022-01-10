@@ -304,6 +304,17 @@ body {
     top: 0;
     left: 0,
 }
+#solution-4 {
+    background-color: #000;
+    height: 80vh;
+    font-size: 18px;
+    color: #fff;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 0vh;
+    top: 0;
+    left: 0,
+}
 #f1_container {
     position: relative;
     margin: 10px auto;
@@ -349,6 +360,7 @@ body {
     margin: 0;
     position: relative;
     top: 50%;
+    left: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: center;
@@ -374,9 +386,6 @@ body {
     top: 0;
 }
 
-.earth-img {
-    position: fixed;
-    width: 100%;
-    object-fit: cover;
-    opacity: 1;
-}
+a:hover {
+    color: gray;
+    text-decoration: none;}
