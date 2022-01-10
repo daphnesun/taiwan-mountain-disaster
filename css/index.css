@@ -156,7 +156,7 @@ body {
 }
 
 /* story */
-#story-1,#fact-1,#fact-3,#reason-1,#gov-1,#solution-4 {
+#story-1,#fact-1,#fact-3,#reason-1,#solution-4 {
     background-color: #000;
     height: 100vh;
     font-size: 18px;
@@ -260,15 +260,23 @@ body {
 }
 
 /* gov */
-
+#gov-1{
+    background-color: #000;
+    height: 90vh;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10vh;
+    top: 0;
+    left: 0,
+}
 /* solution */
 #solution-1-1{
     background-color: #000;
     height: 30vh;
     font-size: 18px;
     color: #fff;
-    padding-right: 5vw;
-    padding-left: 5vw;
+    /* padding-right: 5vw;
+    padding-left: 5vw; */
     padding-top: 10vh;
     top: 0;
     left: 0,
