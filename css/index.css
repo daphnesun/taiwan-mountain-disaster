@@ -183,6 +183,24 @@ body {
 }
 
 @media (max-width: 728px) {
+    #story-2:before {
+        background: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/black_background.png") no-repeat center center;
+        /* min-height: 100vh; */
+        /* min-height: -webkit-fill-available; */
+        content: "";
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        opacity: 1;
+    }
     #story-4:before {
         background: url("https://raw.githubusercontent.com/daphnesun/taiwan-mountain-disaster/main/assets/story_transition_mobile.jpg") no-repeat center center;
         /* min-height: 100vh; */
