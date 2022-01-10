@@ -272,7 +272,7 @@ body {
 }
 
 /* solution */
-#solution-1-1,#solution-2-1 {
+#solution-1-1{
     background-color: #000;
     height: 30vh;
     font-size: 18px;
@@ -282,14 +282,35 @@ body {
     padding-top: 10vh;
     top: 0;
     left: 0,
-}#solution-1-2,#solution-2-2 {
+}
+#solution-1-2 {
     background-color: #000;
-    height: 70vh;
+    height: 50vh;
     font-size: 18px;
     color: #fff;
     padding-right: 5vw;
     padding-left: 5vw;
     padding-top: 10vh;
+    top: 0;
+    left: 0,
+}
+#solution-2-1,#solution-3-1 {
+    background-color: #000;
+    height: 10vh;
+    font-size: 18px;
+    color: #fff;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    top: 0;
+    left: 0,
+}
+#solution-2-2,#solution-3-2 {
+    background-color: #000;
+    height: 50vh;
+    font-size: 18px;
+    color: #fff;
+    padding-right: 5vw;
+    padding-left: 5vw;
     top: 0;
     left: 0,
 }
