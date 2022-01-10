@@ -297,7 +297,7 @@ body {
     position: relative;
     margin: 10px auto;
     width: 250px;
-    height: 190px;
+    height: 250px;
     z-index: 1;
 }
 #f1_container {
@@ -330,7 +330,7 @@ body {
 }
 #f1_container img {
     width: 250px;
-    height: 190px;
+    height: 250px;
 }
 
 /*  */
