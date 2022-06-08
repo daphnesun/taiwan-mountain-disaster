@@ -153,6 +153,7 @@ body {
 @media (min-width: 728px) {
 
     #story-1,
+    #story-2-1,
     #fact-1,
     #fact-3,
     #solution-4 {
@@ -171,6 +172,7 @@ body {
 @media (max-width: 728px) {
 
     #story-1,
+    #story-2-1,
     #fact-1,
     #fact-3,
     #solution-4 {
