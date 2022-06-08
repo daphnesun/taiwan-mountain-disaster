@@ -193,11 +193,11 @@ body {
 
     #story-2-1 {
         background-color: #000;
-        height: 50vh;
+        height: 100vh;
         font-size: 18px;
         color: #fff;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
+        padding-top: 30vh;
+        padding-bottom: 20vh;
         padding-left: 25vw;
         padding-right: 25vw;
         top: 0;
@@ -209,7 +209,7 @@ body {
 
     #story-2-1 {
         background-color: #000;
-        height: 50vh;
+        height: 100vh;
         font-size: 18px;
         color: #fff;
         padding-top: 10vh;
