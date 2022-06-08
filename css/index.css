@@ -153,7 +153,6 @@ body {
 @media (min-width: 728px) {
 
     #story-1,
-    #story-2-1,
     #fact-1,
     #fact-3,
     #solution-4 {
@@ -162,6 +161,7 @@ body {
         font-size: 18px;
         color: #fff;
         padding-top: 10vh;
+        padding-bottom: 10vh;
         padding-left: 25vw;
         padding-right: 25vw;
         top: 0;
@@ -172,7 +172,6 @@ body {
 @media (max-width: 728px) {
 
     #story-1,
-    #story-2-1,
     #fact-1,
     #fact-3,
     #solution-4 {
@@ -181,6 +180,38 @@ body {
         font-size: 18px;
         color: #fff;
         padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        top: 0;
+        left: 0,
+    }
+}
+
+@media (min-width: 728px) {
+
+
+    #story-2-1 {
+        background-color: #000;
+        height: 100vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 20vw;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        top: 0;
+        left: 0,
+    }
+}
+
+@media (max-width: 728px) {
+
+    #story-2-1 {
+        background-color: #000;
+        height: 100vh;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 20vw;
         padding-left: 5vw;
         padding-right: 5vw;
         top: 0;
